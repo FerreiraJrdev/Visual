@@ -1,1 +1,2 @@
-Mudar a cor da página apertando no botão
+
+Aplicação para mudar a cor da página apertando um botão
