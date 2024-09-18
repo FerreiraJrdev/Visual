@@ -1,0 +1,51 @@
+body {
+    font-family: monospace;
+    background-color: var(--bg);
+    color: var(--fontColor);
+}
+
+ul {
+    font-family: helvetica;
+}
+
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
+
+#msg {
+    font-family: monospace;
+}
+
+.light-theme {
+    --bg: #00FF00;
+    --fontColor: #000000;
+    --btnBg: #000000;
+    --btnFontColor: #ffffff;
+}
+
+.dark-theme {
+    --bg: #000000;
+    --fontColor: #00FF00;
+    --btnBg: #ffffff;
+    --btnFontColor: #000000;
+}
+
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.btn:focus {
+    outline-style: none;
+}
